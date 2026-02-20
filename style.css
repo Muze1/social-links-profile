@@ -21,10 +21,68 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    font-size: 14px;
     background-color: var(--grey-900);
     color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+.profile-pic {
+    width: 100px;
+    margin: 24px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h3 {
+    color: var(--green);
+    font-weight: 400;
+}
+
+p {
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+a.socials-links {
+    font-weight: 500;
+    background-color: var(--grey-700);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 6px;
+    padding: 12px 80px;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    font-weight: 500;
+    background-color: var(--green);
+    color: var(--grey-900);
 }
 
 .card-container {
-
+    background-color: var(--grey-800);
+    max-width: fit-content;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
 }
