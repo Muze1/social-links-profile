@@ -9,21 +9,21 @@
 }
 
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(2, 73%, 57%); }
 
 :root {
-    --green: hsl(75, 94%, 57%);
-    --white: hsl(0, 0%, 100%);
-    --grey-700: hsl(0, 0%, 20%);
-    --grey-800: hsl(0, 0%, 12%);
-    --grey-900: hsl(0, 0%, 8%);
+    --cinnabar: hsl(2, 73%, 57%);
+    --light-cyan: hsl(187, 62%, 87%);
+    --twilight-indigo: hsl(221, 27%, 25%);
+    --jet-black: hsl(224, 22%, 19%);
+    --shadow-grey: hsl(224, 20%, 15%);
 }
 
 body {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
-    background-color: var(--grey-900);
-    color: var(--white);
+    background-color: var(--shadow-grey);
+    color: var(--light-cyan);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,7 +43,7 @@ h1 {
 }
 
 h3 {
-    color: var(--green);
+    color: var(--cinnabar);
     font-weight: 400;
 }
 
@@ -59,11 +59,11 @@ ul {
 
 a.socials-links {
     font-weight: 500;
-    background-color: var(--grey-700);
+    background-color: var(--twilight-indigo);
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color: var(--white);
+    color: var(--light-cyan);
     border-radius: 6px;
     padding: 12px 80px;
     margin: 10px;
@@ -72,12 +72,12 @@ a.socials-links {
 
 a:hover {
     font-weight: 500;
-    background-color: var(--green);
-    color: var(--grey-900);
+    background-color: var(--cinnabar);
+    color: var(--shadow-grey);
 }
 
 .card-container {
-    background-color: var(--grey-800);
+    background-color: var(--jet-black);
     max-width: fit-content;
     min-width: 350px;
     display: flex;
